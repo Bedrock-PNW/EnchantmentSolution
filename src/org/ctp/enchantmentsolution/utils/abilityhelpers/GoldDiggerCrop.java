@@ -4,7 +4,7 @@ import org.bukkit.Material;
 import org.ctp.enchantmentsolution.enums.MatData;
 
 public enum GoldDiggerCrop {
-	WHEAT(2), CARROTS(2), POTATOES(2), BEETROOTS(2), NETHER_WARTS(3);
+	BROWN_MUSHROOM(1), RED_MUSHROOM(1), CRIMSON_FUNGUS(2), WARPED_FUNGUS(2), NETHER_WART(3);
 
 	private MatData material;
 	private int exp;

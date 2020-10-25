@@ -61,8 +61,8 @@ public enum TransmutationLoot {
 			case "TROPICAL_FISH":
 				AdvancementUtils.awardCriteria(player, ESAdvancement.FISHY_BUSINESS, lootItem.getType().name().toLowerCase());
 				break;
-			case "TRIDENT":
-				AdvancementUtils.awardCriteria(player, ESAdvancement.POSEIDON_REBORN, "trident");
+			case "HEART_OF_THE_SEA":
+				AdvancementUtils.awardCriteria(player, ESAdvancement.POSEIDON_REBORN, "heart_of_the_sea");
 				break;
 			default:
 				break;

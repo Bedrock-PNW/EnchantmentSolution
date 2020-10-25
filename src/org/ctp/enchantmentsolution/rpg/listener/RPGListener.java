@@ -279,7 +279,7 @@ public class RPGListener extends Enchantmentable implements Runnable {
 		EnchantmentLevel level = event.getEnchantment();
 		if (level.getEnchant().getRelativeEnchantment() instanceof ApiEnchantmentWrapper) return; // other plugins need to make these events go themselves
 		if (level.getEnchant().isCurse()) return; // don't let custom curse enchantments do anything
-		if (event instanceof HeightWidthEvent) giveExperience(event.getPlayer(), ((HeightWidthEvent) event).getEnchantmentWidth());
+		if (event instanceof DepthHeightWidthEvent) giveExperience(event.getPlayer(), ((DepthHeightWidthEvent) event).getEnchantmentWidth());
 		giveExperience(event.getPlayer(), level);
 	}
 

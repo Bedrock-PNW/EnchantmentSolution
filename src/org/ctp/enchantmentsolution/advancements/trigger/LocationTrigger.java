@@ -27,7 +27,7 @@ public class LocationTrigger extends Trigger {
 
 	/**
 	 * @param location
-	 *            information about the location or null, if it should be cleared
+	 *			information about the location or null, if it should be cleared
 	 * @return the current trigger for chaining
 	 */
 	public LocationTrigger setLocation(@Nullable LocationObject location) {

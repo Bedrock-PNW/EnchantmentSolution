@@ -11,11 +11,11 @@ public class ApiEnchantmentWrapper extends CustomEnchantmentWrapper {
 	 * Constructor for the ApiEnchantmentWrapper
 	 * 
 	 * @param plugin
-	 *            - the plugin of the enchantment
+	 *			- the plugin of the enchantment
 	 * @param namespace
-	 *            - the standard name of the enchantment
+	 *			- the standard name of the enchantment
 	 * @param name
-	 *            - the standard name of the enchantment
+	 *			- the standard name of the enchantment
 	 */
 	public ApiEnchantmentWrapper(JavaPlugin plugin, String namespace, String name) {
 		super(plugin, namespace, name);

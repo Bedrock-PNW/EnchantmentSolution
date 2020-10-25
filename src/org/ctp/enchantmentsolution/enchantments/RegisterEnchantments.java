@@ -42,8 +42,9 @@ public class RegisterEnchantments {
 	public static final Enchantment DROWNED = new CustomEnchantmentWrapper("drowned", "DROWNED");
 	public static final Enchantment UNREST = new CustomEnchantmentWrapper("unrest", "UNREST");
 	public static final Enchantment NO_REST = new CustomEnchantmentWrapper("no_rest", "NO_REST");
-	public static final Enchantment WIDTH_PLUS_PLUS = new CustomEnchantmentWrapper("width_plus_plus", "WIDTH_PLUS_PLUS");
+	public static final Enchantment DEPTH_PLUS_PLUS = new CustomEnchantmentWrapper("depth_plus_plus", "DEPTH_PLUS_PLUS");
 	public static final Enchantment HEIGHT_PLUS_PLUS = new CustomEnchantmentWrapper("height_plus_plus", "HEIGHT_PLUS_PLUS");
+	public static final Enchantment WIDTH_PLUS_PLUS = new CustomEnchantmentWrapper("width_plus_plus", "WIDTH_PLUS_PLUS");
 	public static final Enchantment VOID_WALKER = new CustomEnchantmentWrapper("void_walker", "VOID_WALKER");
 	public static final Enchantment ICARUS = new CustomEnchantmentWrapper("icarus", "ICARUS");
 	public static final Enchantment IRON_DEFENSE = new CustomEnchantmentWrapper("iron_defense", "IRON_DEFENSE");
@@ -277,6 +278,7 @@ public class RegisterEnchantments {
 		addDefaultEnchantment(CERegister.CURSE_OF_EXHAUSTION);
 		addDefaultEnchantment(CERegister.CURSE_OF_LAG);
 		addDefaultEnchantment(CERegister.CURSE_OF_STAGNANCY);
+		addDefaultEnchantment(CERegister.DEPTH_PLUS_PLUS);
 		addDefaultEnchantment(CERegister.DETONATOR);
 		addDefaultEnchantment(CERegister.DROWNED);
 		addDefaultEnchantment(CERegister.EXP_SHARE);

@@ -29,11 +29,11 @@ public final class ItemEquipEvent extends PlayerEvent implements Cancellable {
 	 * Constructor for the ItemEquipEvent.
 	 *
 	 * @param player
-	 *            The player who put on / removed the armor.
+	 *			The player who put on / removed the armor.
 	 * @param oldItem
-	 *            The ItemStack of the item removed.
+	 *			The ItemStack of the item removed.
 	 * @param newItem
-	 *            The ItemStack of the item added.
+	 *			The ItemStack of the item added.
 	 */
 	public ItemEquipEvent(final Player player, final HandMethod equipType, final ItemSlotType slot,
 	final ItemStack oldItem, final ItemStack newItem) {

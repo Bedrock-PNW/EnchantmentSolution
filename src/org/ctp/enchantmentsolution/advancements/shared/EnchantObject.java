@@ -30,7 +30,7 @@ class EnchantObject extends SharedObject {
 
 	/**
 	 * @param enchant
-	 *            the enchant or null, if it should be cleared
+	 *			the enchant or null, if it should be cleared
 	 * @return the current block object for chaining
 	 */
 	public EnchantObject setEnchant(@Nullable Enchant enchant) {
@@ -40,7 +40,7 @@ class EnchantObject extends SharedObject {
 
 	/**
 	 * @param levels
-	 *            the level of the enchantment or null, if it should be cleared
+	 *			the level of the enchantment or null, if it should be cleared
 	 * @return the current block object for chaining
 	 */
 	public EnchantObject setLevels(@Nullable RangeObject levels) {

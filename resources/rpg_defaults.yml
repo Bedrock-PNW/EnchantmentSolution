@@ -180,6 +180,10 @@ enchantments:
             experience: 1.3
             points_level_one: 35
             points_increase: 0
+        depth_plus_plus: 
+            experience: 1.8
+            points_level_one: 20
+            points_increase: 25
         detonator: 
             experience: 0.4
             points_level_one: 4
@@ -391,9 +395,9 @@ config_comments:
     experience:
         no_exp:
             enchantment_locked:
-            - 'Experience will not be gained for a specific enchantment unless the player has that enchantment unlocked.'
+            - 'Experience will not be gained for a specific augment unless the player has that augment unlocked.'
             level_locked:
-            - 'Experience will not be gained for a specific enchantment unless the player has that level unlocked.'
-            - 'If player has not unlocked the enchantment, the amount of experience gained will be 0.'
-            - 'If player has unlocked the enchantment, the highest level of experience gained will be the amount given.'
+            - 'Experience will not be gained for a specific augment unless the player has that level unlocked.'
+            - 'If player has not unlocked the augment, the amount of experience gained will be 0.'
+            - 'If player has unlocked the augment, the highest level of experience gained will be the amount given.'
             - 'E.g., Efficiency 5 will only give experience at the level of Efficiency 1 if only level 1 is unlocked.'

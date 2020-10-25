@@ -29,7 +29,7 @@ public class RangeObject extends SharedObject {
 
 	/**
 	 * @param min
-	 *            the lower bound or null, if it should be cleared
+	 *			the lower bound or null, if it should be cleared
 	 * @return the current range object for chaining
 	 */
 	public RangeObject setMin(@Nullable Double min) {
@@ -39,7 +39,7 @@ public class RangeObject extends SharedObject {
 
 	/**
 	 * @param min
-	 *            the lower bound or null, if it should be cleared
+	 *			the lower bound or null, if it should be cleared
 	 * @return the current range object for chaining
 	 */
 	public RangeObject setMin(@Nullable Integer min) {
@@ -49,7 +49,7 @@ public class RangeObject extends SharedObject {
 
 	/**
 	 * @param max
-	 *            the upper bound or null, if it should be cleared
+	 *			the upper bound or null, if it should be cleared
 	 * @return the current range object for chaining
 	 */
 	public RangeObject setMax(@Nullable Double max) {
@@ -59,7 +59,7 @@ public class RangeObject extends SharedObject {
 
 	/**
 	 * @param max
-	 *            the upper bound or null, if it should be cleared
+	 *			the upper bound or null, if it should be cleared
 	 * @return the current range object for chaining
 	 */
 	public RangeObject setMax(@Nullable Integer max) {
@@ -69,8 +69,8 @@ public class RangeObject extends SharedObject {
 
 	/**
 	 * @param exact
-	 *            the value which is to be assigned to both the lower and the upper
-	 *            bounds
+	 *			the value which is to be assigned to both the lower and the upper
+	 *			bounds
 	 * @return the current range object for chaining
 	 */
 	public RangeObject setExact(double exact) {
@@ -81,8 +81,8 @@ public class RangeObject extends SharedObject {
 
 	/**
 	 * @param exact
-	 *            the value which is to be assigned to both the lower and the upper
-	 *            bounds
+	 *			the value which is to be assigned to both the lower and the upper
+	 *			bounds
 	 * @return the current range object for chaining
 	 */
 	public RangeObject setExact(int exact) {

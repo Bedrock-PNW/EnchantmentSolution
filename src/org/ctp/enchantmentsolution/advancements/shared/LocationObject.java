@@ -61,7 +61,7 @@ public class LocationObject extends SharedObject {
 
 	/**
 	 * @param x
-	 *            the x coordinate component or null, if it should be cleared
+	 *			the x coordinate component or null, if it should be cleared
 	 * @return the current location object for chaining
 	 */
 	public LocationObject setX(@Nullable RangeObject x) {
@@ -71,7 +71,7 @@ public class LocationObject extends SharedObject {
 
 	/**
 	 * @param y
-	 *            the y coordinate component or null, if it should be cleared
+	 *			the y coordinate component or null, if it should be cleared
 	 * @return the current location object for chaining
 	 */
 	public LocationObject setY(@Nullable RangeObject y) {
@@ -81,7 +81,7 @@ public class LocationObject extends SharedObject {
 
 	/**
 	 * @param z
-	 *            the z coordinate component or null, if it should be cleared
+	 *			the z coordinate component or null, if it should be cleared
 	 * @return the current location object for chaining
 	 */
 	public LocationObject setZ(@Nullable RangeObject z) {
@@ -91,7 +91,7 @@ public class LocationObject extends SharedObject {
 
 	/**
 	 * @param biome
-	 *            the biome, or null if it should be cleared
+	 *			the biome, or null if it should be cleared
 	 * @return the current location object for chaining
 	 */
 	public LocationObject setBiome(@Nullable Biome biome) {
@@ -101,7 +101,7 @@ public class LocationObject extends SharedObject {
 
 	/**
 	 * @param feature
-	 *            the feature, or null if it should be cleared
+	 *			the feature, or null if it should be cleared
 	 * @return the current location object for chaining
 	 */
 	public LocationObject setFeature(@Nullable Feature feature) {
@@ -111,7 +111,7 @@ public class LocationObject extends SharedObject {
 
 	/**
 	 * @param dimension
-	 *            the dimension, or null if it should be cleared
+	 *			the dimension, or null if it should be cleared
 	 * @return the current location object for chaining
 	 */
 	public LocationObject setDimension(@Nullable Dimension dimension) {

@@ -26,7 +26,7 @@ public abstract class SharedObject {
 	 * This method should be used wisely, since it calls {@link #toJson()}
 	 * 
 	 * @param object
-	 *            the object with which to compare
+	 *			the object with which to compare
 	 * @return whether this object has the same content as the passed parameter
 	 */
 	@Override

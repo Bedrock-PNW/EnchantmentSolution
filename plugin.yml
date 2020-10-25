@@ -1,5 +1,5 @@
 name: EnchantmentSolution
-version: 2.3.23
+version: 2.3.24
 main: org.ctp.enchantmentsolution.EnchantmentSolution
 api-version: 1.13
 softdepend: [mcMMO, Jobs, VeinMiner, AuctionHouse, MMOLib, MMOItems, Quests]
@@ -18,11 +18,11 @@ commands:
     usage: /enchantunsafe <enchant_name> [level]
   info:
     aliases: [enchantinfo]
-    description: Gives player information on an enchantment.
+    description: Gives player information on an augment.
     usage: /info [enchant_name]
   removeenchant:
     aliases: [eremove]
-    description: Remove enchantment from item.
+    description: Remove augment from item.
     usage: /removeenchant <enchant_name>
   esreload:
     description: Reload config files
@@ -37,11 +37,11 @@ commands:
     description: Generates a debug file for debugging and testing
     usage: /esdebug
   escalc:
-    description: Calculate the levels that would be possible with certain enchantabilities
+    description: Calculate the levels that would be possible with certain augmentabilities
     usage: /escalc
   esbook:
     aliases: [book]
-    description: Gives the player a book with specified enchantment; use RandomEnchant or RandomMultiEnchant for random enchantments
+    description: Gives the player a manual with specified augment; use RandomEnchant or RandomMultiEnchant for random augment
     usage: /esbook
   esanvil:
     aliases: [anvil]
@@ -52,7 +52,7 @@ commands:
     description: Opens the ES custom inventory grindstone
     usage: /esgrindstone
   configlore:
-    description: Gets the hidden chat color value for strings to be used in ES enchantments
+    description: Gets the hidden chat color value for strings to be used in ES augments
     usage: /configlore
   esrpg:
     description: Gets the ES RPG information if the RPG mode is enabled
@@ -61,7 +61,7 @@ commands:
     description: Gets a list of commands and their usages
     usage: /eshelp
   esfix:
-    description: Fixes items to make their enchantments work
+    description: Fixes items to make their augments work
     usage: /esfix
   rpgstats:
     description: Gets a player's stats from ESRPG
@@ -80,13 +80,13 @@ permissions:
     description: Enables use of external /fly commands without interference from FrequentFlyer
     default: false
   enchantmentsolution.permissions.ignore: 
-    description: Gives access to all enchantment permissions.
+    description: Gives access to all augment permissions.
     default: false
   enchantmentsolution.demigod-anvil:
-    description: Allows players to repair items with enchantments they cannot combine
+    description: Allows players to repair items with augments they cannot combine
     default: false
   enchantmentsolution.demigod-books:
-    description: Allows players to add levels from enchanted books to items even if they cannot combine the levels
+    description: Allows players to add levels from augmented books to items even if they cannot combine the levels
     default: false
   enchantmentsolution.god-anvil:
     description: Allows players to combine items higher than their max levels
@@ -98,16 +98,16 @@ permissions:
     description: Enables dropping player's skulls with Beheading
     default: true
   enchantmentsolution.enchantments.rpg.all: 
-    description: Gives access to every enchantment through ESRPG.
+    description: Gives access to every augment through ESRPG.
     default: op
   enchantmentsolution.enchantments.lower-levels:
-    description: Only allow the player to have enchantments and enchantment levels that match their permission levels
+    description: Only allow the player to have augments and augment levels that match their permission levels
     default: false
   enchantmentsolution.anvil.demigod:
-    description: Allows players to repair items with enchantments they cannot combine
+    description: Allows players to repair items with augments they cannot combine
     default: false
   enchantmentsolution.anvil.demigod-books:
-    description: Allows players to add levels from enchanted books to items even if they cannot combine the levels
+    description: Allows players to add levels from augmentation manuals to items even if they cannot combine the levels
     default: false
   enchantmentsolution.anvil.god:
     description: Allows players to combine items higher than their max levels
@@ -122,10 +122,10 @@ permissions:
     description: Gives access to the /es config command. 
     default: op
   enchantmentsolution.command.enchant: 
-    description: Gives access to the /es enchant command. 
+    description: Gives access to the /es augment command. 
     default: op
   enchantmentsolution.command.enchant.others: 
-    description: Gives access to the /es enchant command for use on other people. 
+    description: Gives access to the /es augment command for use on other people. 
     default: op
   enchantmentsolution.command.reload: 
     description: Gives access to the /es reload command. 

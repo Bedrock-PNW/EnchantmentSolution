@@ -18,7 +18,7 @@ public abstract class Trigger {
 
 	/**
 	 * @param type
-	 *            the of the trigger
+	 *			the of the trigger
 	 */
 	protected Trigger(Type type) {
 		Validate.notNull(type);
@@ -41,7 +41,7 @@ public abstract class Trigger {
 
 	/**
 	 * @return a JSON representation of the conditions of the trigger or null, if
-	 *         none was specified
+	 *		 none was specified
 	 */
 	protected abstract @Nullable JsonObject getConditions();
 
@@ -59,7 +59,7 @@ public abstract class Trigger {
 	 * This method should be used wisely, since it calls {@link #getConditions()}
 	 * 
 	 * @param object
-	 *            the reference object with which to compare
+	 *			the reference object with which to compare
 	 * @return whether this object has the same content as the passed parameter
 	 */
 	@Override
