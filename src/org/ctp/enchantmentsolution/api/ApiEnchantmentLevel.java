@@ -8,9 +8,9 @@ public class ApiEnchantmentLevel extends EnchantmentLevel {
 	 * Constructor for ApiEnchantmentLevel
 	 * 
 	 * @param enchant
-	 *			- the custom enchantment
+	 *            - the custom enchantment
 	 * @param level
-	 *			- the level of the enchantment
+	 *            - the level of the enchantment
 	 */
 	public ApiEnchantmentLevel(ApiEnchantment enchant, int level) {
 		super(enchant, level);

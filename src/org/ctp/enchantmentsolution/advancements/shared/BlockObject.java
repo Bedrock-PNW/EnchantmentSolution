@@ -23,7 +23,7 @@ public class BlockObject extends SharedObject {
 
 	/**
 	 * @param block
-	 *			the type of the block
+	 *            the type of the block
 	 */
 	public BlockObject(Material block) {
 		Validate.notNull(block);
@@ -49,9 +49,9 @@ public class BlockObject extends SharedObject {
 	 * contains a list of possible states for each block
 	 *
 	 * @param state
-	 *			the state's id
+	 *            the state's id
 	 * @param value
-	 *			the state's value
+	 *            the state's value
 	 * @return the current block object for chaining
 	 */
 	public BlockObject setState(String state, @Nullable String value) {

@@ -8,7 +8,7 @@ package org.ctp.enchantmentsolution.advancements.shared;
 public interface SharedEnum {
 	/**
 	 * @return a {@link String} representation of the enum value, which can be used
-	 *		 in JSON objects
+	 *         in JSON objects
 	 */
 	String getValue();
 }

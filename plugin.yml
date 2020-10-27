@@ -1,5 +1,5 @@
 name: EnchantmentSolution
-version: 2.3.24
+version: 2.3.25
 main: org.ctp.enchantmentsolution.EnchantmentSolution
 api-version: 1.13
 softdepend: [mcMMO, Jobs, VeinMiner, AuctionHouse, MMOLib, MMOItems, Quests]
@@ -122,10 +122,10 @@ permissions:
     description: Gives access to the /es config command. 
     default: op
   enchantmentsolution.command.enchant: 
-    description: Gives access to the /es augment command. 
+    description: Gives access to the /es enchant command. 
     default: op
   enchantmentsolution.command.enchant.others: 
-    description: Gives access to the /es augment command for use on other people. 
+    description: Gives access to the /es enchant command for use on other people. 
     default: op
   enchantmentsolution.command.reload: 
     description: Gives access to the /es reload command. 

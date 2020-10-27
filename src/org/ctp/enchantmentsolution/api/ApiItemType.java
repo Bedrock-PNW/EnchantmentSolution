@@ -13,7 +13,7 @@ public class ApiItemType {
 	 * Constructor for ApiItemType
 	 * 
 	 * @param type
-	 *			- the type of items
+	 *            - the type of items
 	 */
 	public ApiItemType(String type) {
 		itemType = ItemType.getItemType(type);
@@ -23,7 +23,7 @@ public class ApiItemType {
 	 * Constructor for ApiItemType
 	 * 
 	 * @param type
-	 *			- the type of items
+	 *            - the type of items
 	 */
 	public ApiItemType(ItemType type) {
 		itemType = type;

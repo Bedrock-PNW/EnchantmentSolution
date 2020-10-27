@@ -24,7 +24,7 @@ public class Rewards {
 
 	/**
 	 * @return the id of the recipes which will unlock upon completion of the
-	 *		 advancement
+	 *         advancement
 	 */
 	public Set<NamespacedKey> getRecipes() {
 		return recipes == null ? Collections.emptySet() : Collections.unmodifiableSet(recipes);
@@ -32,7 +32,7 @@ public class Rewards {
 
 	/**
 	 * @return the id of the loot tables from all of which items will be given upon
-	 *		 completion of the advancement
+	 *         completion of the advancement
 	 */
 	public Set<NamespacedKey> getLoots() {
 		return loots == null ? Collections.emptySet() : Collections.unmodifiableSet(loots);
@@ -40,7 +40,7 @@ public class Rewards {
 
 	/**
 	 * @return the amount of experience which will be given upon completion of the
-	 *		 advancement
+	 *         advancement
 	 */
 	public int getExperience() {
 		return experience;
@@ -48,7 +48,7 @@ public class Rewards {
 
 	/**
 	 * @return the id of the function which will run upon completion of the
-	 *		 advancement
+	 *         advancement
 	 */
 	public @Nullable NamespacedKey getFunction() {
 		return function;
@@ -56,8 +56,8 @@ public class Rewards {
 
 	/**
 	 * @param experience
-	 *			the amount of experience which should be given upon completion of
-	 *			the advancement
+	 *            the amount of experience which should be given upon completion of
+	 *            the advancement
 	 * @return the current rewards object for chaining
 	 */
 	public Rewards setExperience(int experience) {
@@ -83,7 +83,7 @@ public class Rewards {
 
 	/**
 	 * @param object
-	 *			the reference object with which to compare
+	 *            the reference object with which to compare
 	 * @return whether this object has the same content as the passed parameter
 	 */
 	@Override

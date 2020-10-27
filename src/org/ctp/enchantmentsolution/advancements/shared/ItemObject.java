@@ -66,7 +66,7 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @return the item's NBT string (starting and ending with curly braces) or
-	 *		 null, if none was specified
+	 *         null, if none was specified
 	 */
 	public @Nullable String getNbt() {
 		return nbt;
@@ -74,7 +74,7 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @param item
-	 *			the type of the item or null, if it should be cleared
+	 *            the type of the item or null, if it should be cleared
 	 * @return the current item object for chaining
 	 */
 	public ItemObject setItem(@Nullable Material item) {
@@ -84,7 +84,7 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @param durability
-	 *			the item's durability or null, if it should be cleared
+	 *            the item's durability or null, if it should be cleared
 	 * @return the current item object for chaining
 	 */
 	public ItemObject setDurability(@Nullable RangeObject durability) {
@@ -94,7 +94,7 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @param count
-	 *			the item's count or null, if it should be cleared
+	 *            the item's count or null, if it should be cleared
 	 * @return the current item object for chaining
 	 */
 	public ItemObject setCount(@Nullable RangeObject count) {
@@ -104,7 +104,7 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @param potion
-	 *			the potion data of the item or null, if it should be cleared
+	 *            the potion data of the item or null, if it should be cleared
 	 * @return the current item object for chaining
 	 */
 	public ItemObject setPotion(@Nullable Potion potion) {
@@ -114,8 +114,8 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @param enchant
-	 *			the enchant which should be added to the item's applied
-	 *			enchantments
+	 *            the enchant which should be added to the item's applied
+	 *            enchantments
 	 * @return the current item object for chaining
 	 */
 	public ItemObject addEnchant(EnchantObject enchant) {
@@ -127,8 +127,8 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @param enchant
-	 *			the enchant which should be removed from the item's applied
-	 *			enchantments
+	 *            the enchant which should be removed from the item's applied
+	 *            enchantments
 	 * @return the current item object for chaining
 	 */
 	public ItemObject removeEnchant(EnchantObject enchant) {
@@ -139,8 +139,8 @@ public class ItemObject extends SharedObject {
 
 	/**
 	 * @param nbt
-	 *			the NBT string of the item (starting and ending with curly braces)
-	 *			or null, if it should be cleared
+	 *            the NBT string of the item (starting and ending with curly braces)
+	 *            or null, if it should be cleared
 	 * @return the current item object for chaining
 	 */
 	public ItemObject setNbt(@Nullable String nbt) {

@@ -265,13 +265,13 @@ config_comments:
     
     multi_block:
         async:
-        - 'Whether the High/Wide/Far Reach augments should work asynchronously'
+        - 'Whether the Far/High/Wide Reach augments should work asynchronously'
         - 'This increases performance but nerfs those augments slightly'
         - 'DEPRECATED - now will always be true for performance reasons'
         all_faces:
         - 'Whether the async will only check basic block faces (North, South, East, West, Up, Down) or all faces.'
         blocks_per_tick:
             player:
-            - 'The maximum blocks broken per tick per player using Depth/Height/Width++'
+            - 'The maximum blocks broken per tick per player using Far/High/Wide Reach'
             global:
-            - 'The maximum blocks broken per tick globally using Depth/Height/Width++'
+            - 'The maximum blocks broken per tick globally using Far/High/Wide Reach'
