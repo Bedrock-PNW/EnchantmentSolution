@@ -896,7 +896,7 @@ advancements:
         description: 'Steal another player''s item using Soul Reaper'
     enchantments/high_metabolism: 
         name: 'High Metabolism'
-        description: 'Quadruple the amount of exhaustion experienced using Curse of Exhaustion'
+        description: 'Quadruple the amount of exhaustion experienced using Exhaustion'
     enchantments/ready_after_death: 
         name: 'Ready After Death'
         description: 'Save nine unique types of diamond tools, weapons, and armor in death using Soulbound'
