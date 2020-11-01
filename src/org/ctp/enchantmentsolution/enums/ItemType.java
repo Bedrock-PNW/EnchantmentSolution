@@ -409,6 +409,7 @@ public class ItemType {
 			case "MELEE":
 				i.addAll(getEnchantables(AXES.getType()));
 				i.addAll(getEnchantables(SWORDS.getType()));
+				i.addAll(getEnchantables(TRIDENT.getType()));
 				break;
 			case "MISC":
 				i.addAll(getEnchantables(SHIELD.getType()));
@@ -496,6 +497,10 @@ public class ItemType {
 				i.addAll(getEnchantables(HOES.getType()));
 				i.addAll(getEnchantables(SHOVELS.getType()));
 				i.addAll(getEnchantables(PICKAXES.getType()));
+				break;
+			case "WEAPONS":
+				i.addAll(getEnchantables(MELEE.getType()));
+				i.addAll(getEnchantables(RANGED.getType()));
 				break;
 			case "WOODEN_TOOLS":
 				i.addAll(getEnchantables(WOODEN_AXE.getType()));

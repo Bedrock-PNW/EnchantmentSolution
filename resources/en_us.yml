@@ -598,7 +598,7 @@ enchantment:
             exp_share: 'Savant'
             flower_gift: 'Flower Gift'
             force_feed: 'Symbiosis'
-            frequent_flyer: 'Frequent Flyer'
+            frequent_flyer: 'Hovering'
             fried: 'Frying'
             gold_digger: 'Rooting'
             gung_ho: 'Glass'
@@ -630,7 +630,7 @@ enchantment:
             soul_reaper: 'Soul Reaper'
             splatter_fest: 'Splatter Fest'
             sticky_hold: 'Sticky Hold'
-            stone_throw: 'Bane of Wings'
+            stone_throw: 'Bane of Skies'
             tank: 'Enduring'
             telepathy: 'Hoarding'
             toughness: 'Hardened'
@@ -938,7 +938,7 @@ advancements:
         description: 'Eat an notch apple while wearing the highest level of Vitality'
     enchantments/cruising_altitude: 
         name: 'Cruising Altitude'
-        description: 'Travel to 12000m using Frequent Flyer'
+        description: 'Travel to 12000m using Hovering'
     enchantments/graphene_armor: 
         name: 'Graphene Armor'
         description: 'Gain 20 Armor Toughness from Hardened'
@@ -953,10 +953,10 @@ advancements:
         description: 'Kill a Pillager using a Pillage crossbow'
     enchantments/just_die_already: 
         name: 'Just DIE Already!'
-        description: 'Kill a Phantom in one shot using Bane of Wings'
+        description: 'Kill a Phantom in one shot using Bane of Skies'
     enchantments/underkill: 
         name: 'Dragon Hunter'
-        description: 'Hit the Ender Dragon using Bane of Wings'
+        description: 'Hit the Ender Dragon using Bane of Skies'
     enchantments/where_did_that_come_from: 
         name: 'Where Did That Come From?'
         description: 'Kill a skeleton from 100 blocks away using Sniping'
