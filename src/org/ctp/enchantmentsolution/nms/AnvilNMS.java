@@ -1,13 +1,13 @@
 package org.ctp.enchantmentsolution.nms;
 
 import org.bukkit.inventory.ItemStack;
-import org.ctp.enchantmentsolution.EnchantmentSolution;
+import org.ctp.crashapi.CrashAPI;
 
 public class AnvilNMS {
 
 	public static int getRepairCost(ItemStack item) {
 		if (item == null) return 0;
-		switch (EnchantmentSolution.getPlugin().getBukkitVersion().getVersionNumber()) {
+		switch (CrashAPI.getPlugin().getBukkitVersion().getVersionNumber()) {
 			case 1:
 				net.minecraft.server.v1_13_R1.ItemStack nmsV1 = org.bukkit.craftbukkit.v1_13_R1.inventory.CraftItemStack.asNMSCopy(item);
 				return nmsV1.getRepairCost();
@@ -34,12 +34,15 @@ public class AnvilNMS {
 			case 14:
 				net.minecraft.server.v1_16_R2.ItemStack nmsV6 = org.bukkit.craftbukkit.v1_16_R2.inventory.CraftItemStack.asNMSCopy(item);
 				return nmsV6.getRepairCost();
+			case 15:
+				net.minecraft.server.v1_16_R3.ItemStack nmsV7 = org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack.asNMSCopy(item);
+				return nmsV7.getRepairCost();
 		}
 		return 0;
 	}
 
 	public static ItemStack setRepairCost(ItemStack item, int repairCost) {
-		switch (EnchantmentSolution.getPlugin().getBukkitVersion().getVersionNumber()) {
+		switch (CrashAPI.getPlugin().getBukkitVersion().getVersionNumber()) {
 			case 1:
 				net.minecraft.server.v1_13_R1.ItemStack nmsV1 = org.bukkit.craftbukkit.v1_13_R1.inventory.CraftItemStack.asNMSCopy(item);
 				nmsV1.setRepairCost(repairCost);
@@ -72,6 +75,10 @@ public class AnvilNMS {
 				net.minecraft.server.v1_16_R2.ItemStack nmsV6 = org.bukkit.craftbukkit.v1_16_R2.inventory.CraftItemStack.asNMSCopy(item);
 				nmsV6.setRepairCost(repairCost);
 				return org.bukkit.craftbukkit.v1_16_R2.inventory.CraftItemStack.asBukkitCopy(nmsV6);
+			case 15:
+				net.minecraft.server.v1_16_R3.ItemStack nmsV7 = org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack.asNMSCopy(item);
+				nmsV7.setRepairCost(repairCost);
+				return org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack.asBukkitCopy(nmsV7);
 		}
 		return item;
 	}

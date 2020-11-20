@@ -1,14 +1,14 @@
 package org.ctp.enchantmentsolution.nms;
 
 import org.bukkit.entity.Player;
-import org.ctp.enchantmentsolution.EnchantmentSolution;
-import org.ctp.enchantmentsolution.inventory.InventoryData;
+import org.ctp.crashapi.CrashAPI;
+import org.ctp.crashapi.inventory.InventoryData;
 import org.ctp.enchantmentsolution.nms.anvil.*;
 
 public class Anvil_GUI_NMS {
 
 	public static void createAnvil(Player player, InventoryData data) {
-		switch (EnchantmentSolution.getPlugin().getBukkitVersion().getVersionNumber()) {
+		switch (CrashAPI.getPlugin().getBukkitVersion().getVersionNumber()) {
 			case 1:
 				AnvilGUI_v1_13_R1.createAnvil(player, data);
 				break;
@@ -34,6 +34,9 @@ public class Anvil_GUI_NMS {
 			case 13:
 			case 14:
 				AnvilGUI_v1_16_R2.createAnvil(player, data);
+				break;
+			case 15:
+				AnvilGUI_v1_16_R3.createAnvil(player, data);
 				break;
 		}
 	}
